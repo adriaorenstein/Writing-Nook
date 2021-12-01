@@ -1,0 +1,2 @@
+FROM writing-nook:latest
+COPY --chown=node:node secrets-aws.js /home/node/app/secrets.js
